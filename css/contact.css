@@ -1,0 +1,94 @@
+@import url(common.css);
+
+main article h1 {
+  /* background-color: aqua; */
+  font-family: "Kaisei Tokumin", serif;
+  color: #1d1502;
+  font-size: 40px;
+
+  background-image: url(../img/since1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 57px;
+  margin-bottom: 67px;
+}
+main article div.flex {
+  display: flex;
+  gap: 30px;
+  padding: 40px 95px 10px 95px;
+
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  border: 2px solid #4a4a4a;
+}
+
+main article div.flex div {
+  flex: 1;
+}
+main article div.flex fieldset.right {
+  flex: 1;
+}
+
+main input,
+main textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+main textarea {
+  height: 267px;
+  resize: vertical;
+}
+
+main form p.hissu {
+  text-align: right;
+  padding-top: 10px;
+}
+main form p button {
+  width: 160px;
+  background-color: #6b5311;
+  padding: 16.5px 0px;
+  margin-top: 20px;
+  margin-bottom: 67px;
+  font-size: 18px;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+main aside.kojin {
+  background-color: #6b5311;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px 30px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 67px;
+}
+main aside.kojin h2 {
+  padding-bottom: 6px;
+}
+main aside.kojin p {
+  text-align: left;
+}
+
+/* タブレットの書式 */
+@media (max-width: 991px) {
+  main article div.flex {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* スマホ縦の書式 */
+@media (max-width: 767px) {
+  /* ブロック表示 */
+
+  main article div.flex {
+    display: block;
+    padding: 30px 30px 0px;
+  }
+}

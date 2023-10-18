@@ -1,0 +1,142 @@
+body {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fffdf8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 {
+  padding-top: 23px;
+  padding-bottom: 29px;
+}
+
+header nav {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #6a6a6a;
+  border-bottom: 2px solid #6a6a6a;
+  margin-bottom: 36px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+header nav li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header nav li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+header nav li.active a {
+  color: #000;
+  font-weight: bold;
+}
+
+p.visual {
+  padding-bottom: 67px;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 57px;
+}
+
+main section {
+  margin-bottom: 67px;
+  border-bottom: 3px solid #000;
+}
+
+main section ul.gazou3 {
+  padding-bottom: 67px;
+}
+main section ul.gazou3 li {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+main section h2 {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 53px;
+
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+main section p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  padding-bottom: 50px;
+}
+
+main section ul.ibentgazou li {
+  padding-bottom: 50px;
+}
+
+main aside a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background: #322707;
+  padding-top: 42px;
+}
+
+footer section {
+  width: 540px;
+
+  margin-left: auto;
+  margin-right: auto;
+  background: #5f4e1c;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-bottom: 30px;
+}
+
+footer section h2 {
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+footer section p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+footer p.logo {
+  margin-bottom: 30px;
+}
+footer address {
+  color: #fffdf8;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer p.copy {
+  background-color: #000;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fffdf8;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}

@@ -1,0 +1,81 @@
+@import url(common.css);
+
+main div.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* セクションの書式 */
+main article section {
+  border: 2px solid #4a4a4a;
+
+  padding-top: 44px;
+  padding-bottom: 44px;
+  margin-bottom: 67px;
+
+  flex-basis: 47.4%;
+}
+
+/* セクションの見出し共通 */
+main article section h2 {
+  /* background-color: #4a4a4a; */
+
+  color: #54410c;
+  font-size: 24px;
+  font-weight: bold;
+
+  background-image: url(../img/line.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 48px;
+  margin-bottom: 22px;
+  padding-top: 22px;
+}
+
+/* セクションのsetumei共通 */
+main article section .setumei {
+  color: #1d1502;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* セクションのyenで共通 */
+main article section .yen {
+  color: #54410c;
+  font-size: 24px;
+  margin-bottom: 19px;
+}
+
+/* ボタン共通 */
+main article section .botan a {
+  background: #6b5311;
+  max-width: 350px;
+  margin: 0 auto;
+
+  color: #fffdf8;
+  font-size: 18px;
+
+  padding: 16.5px 0;
+
+  display: block;
+  background-image: url(../img/right.svg);
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: right 24px center;
+}
+
+main article section .botan a:hover {
+  opacity: 0.7;
+}
+
+/* レスポンシブ */
+@media (max-width: 991px) {
+  main div.flex {
+    display: block;
+  }
+}
