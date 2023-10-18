@@ -52,7 +52,7 @@ nav li a:hover {
 }
 
 nav li.active a {
-  color: red;
+  color: #000;
   font-weight: bold;
 }
 
